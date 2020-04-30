@@ -9,10 +9,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Book App',
+      title: 'DHM Book App',
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
-        primarySwatch: Colors.yellow,
+        primarySwatch: Colors.lightBlue,
         platform: TargetPlatform.iOS,
       ),
       home: Home(),

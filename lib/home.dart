@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
         icon: Icon(Icons.menu),
         onPressed: () {},
       ),
-      title: Text('Design Books'),
+      title: Text('Loyalty Books'),
       actions: <Widget>[
         IconButton(
           icon: Icon(Icons.search),
@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
           tag: book.title,
           child: Material(
             elevation: 15.0,
-            shadowColor: Colors.yellow.shade900,
+            shadowColor: Colors.lightBlue.shade900,
             child: InkWell(
               onTap: () {
                 Navigator.pushNamed(context, 'detail/${book.title}');
